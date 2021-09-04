@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2021-09-04 09:55:39
- * @LastEditTime: 2021-09-04 10:02:27
- * @LastEditors: your name
+ * @LastEditTime: 2021-09-04 10:15:26
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \test\c.js
  */
@@ -11,7 +11,12 @@
 		console.log('say');
 	}
 
+	var whoami = function() {
+		console.log('module c');
+	}
+
 	window.moduleC = {
-		say: say
+		say: say,
+		whoami
 	}
 })()
